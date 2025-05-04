@@ -1,1 +1,16 @@
 include ':app'
+dependencyResolutionManagement {
+    repositories {
+
+        // Google 官方仓库
+        google()
+        // Maven 中央仓库
+        mavenCentral()
+
+        // 自定义私有仓库
+        maven { url 'https://maven.aliyun.com/repository/public' } // 阿里云镜像仓库
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.spring.io/libs-milestone' } // Spring Lib M 仓库（旧版本可能在此）
+
+    }
+}

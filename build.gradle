@@ -1,21 +1,17 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        // 关键仓库：包含 richeditor-android 的仓库
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.spring.io/libs-milestone' } // Spring Lib M 仓库（旧版本可能在此）
+        maven { url 'https://gitee.com/MasterHan666/richeditor-android/raw/master' } // 国内镜像（备用）
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath 'com.android.tools.build:gradle:8.9.2'
     }
 }
 
 ext {
     defaultTargetSdkVersion = 21
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
 }
