@@ -31,8 +31,8 @@
     <string name="note_alert_expired">已过期</string>
     <string name="format_date_ymd">yyyyMMdd</string>
     <string name="format_datetime_mdhm">MM月dd日 kk:mm</string>
-    <string name="menu_spider">主题：蜘蛛侠</string>
-    <string name="menu_wang">主题:wangxiaoyan</string>
+    <string name="menu_classic_kun">主题:classic_kun</string>
+    <string name="menu_colorful_kun">主题:colorful_kun</string>
     <string name="notealert_ok">知道了</string>
     <string name="notealert_enter">查看</string>
     <string name="note_link_tel">呼叫电话</string>

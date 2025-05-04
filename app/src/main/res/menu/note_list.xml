@@ -49,10 +49,10 @@
         android:id="@+id/menu_quit_secret"
         android:title="@string/menu_quit_secret"/>
     <item
-        android:id="@+id/menu_spider"
-        android:title="@string/menu_spider"/>
+        android:id="@+id/menu_colorful_kun"
+        android:title="@string/menu_colorful_kun" />
     <item
-        android:id="@+id/menu_wang"
-        android:title="@string/menu_wang"/>
+        android:id="@+id/menu_classic_kun"
+        android:title="@string/menu_classic_kun" />
 </menu>
 

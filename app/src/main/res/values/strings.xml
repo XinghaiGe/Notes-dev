@@ -35,8 +35,8 @@
     <string name="notealert_enter">Take a look</string>
     <string name="note_link_tel">Call</string>
     <string name="note_link_email">Send email</string>
-    <string name="menu_spider">background:spider</string>
-    <string name="menu_wang">background:wang</string>
+    <string name="menu_classic_kun">background:classic_kun</string>
+    <string name="menu_colorful_kun">background:colorful_kun</string>
     <string name="note_link_web">Browse web</string>
     <string name="note_link_other">Open map</string>
     <!-- Text export file information -->

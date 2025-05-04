@@ -19,8 +19,8 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="menu_secret">私密模式</string>
     <string name="menu_quit_secret">退出私密模式</string>
-    <string name="menu_spider">主题：蜘蛛侠</string>
-    <string name="menu_wang">主题:wangxiaoyan</string>
+    <string name="menu_classic_kun">主题：classic_kun</string>
+    <string name="menu_colorful_kun">主题:colorful_kun</string>
     <string name="app_name">便簽</string>
     <string name="app_widget2x2">便簽2x2</string>
     <string name="app_widget4x4">便簽4x4</string>

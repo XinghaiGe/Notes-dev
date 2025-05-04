@@ -174,9 +174,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.note_list);
-        //getWindow().setBackgroundDrawableResource(R.drawable.spider);
-//        getWindow().setBackgroundDrawableResource(R.drawable.wang);
-        getWindow().setBackgroundDrawableResource(R.drawable.list_background);
+        getWindow().setBackgroundDrawableResource(R.drawable.classic_kun);
         initResources();
 
         // 用户首次使用时插入介绍信息
@@ -1108,9 +1106,9 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         else
             menu.findItem(R.id.menu_quit_secret).setVisible(false);
         if (mode == -1){
-            menu.findItem(R.id.menu_wang).setVisible(false);
+            menu.findItem(R.id.menu_classic_kun).setVisible(false);
         }else if(mode == 1) {
-            menu.findItem(R.id.menu_spider).setVisible(false);
+            menu.findItem(R.id.menu_colorful_kun).setVisible(false);
         }
 
         return true;
@@ -1125,14 +1123,14 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_spider: {
+            case R.id.menu_colorful_kun: {
                 mode=1;
-                getWindow().setBackgroundDrawableResource(R.drawable.list_background);
+                getWindow().setBackgroundDrawableResource(R.drawable.colorful_kun);
                 break;
             }
-            case R.id.menu_wang: {
+            case R.id.menu_classic_kun: {
                 mode=-1;
-                getWindow().setBackgroundDrawableResource(R.drawable.list_background);
+                getWindow().setBackgroundDrawableResource(R.drawable.classic_kun);
                 break;
             }
             case R.id.menu_new_folder: {
