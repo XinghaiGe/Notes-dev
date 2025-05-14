@@ -8,8 +8,12 @@
 
 
 ## 环境要求
-- **开发工具**: Android Studio Meerkat | 2024.3.1 Patch 2
+- **开发工具**: Android Studio | 2024.3.2
 - **构建工具**: gradle-8.11.1
+
+## 更新日志 (2025.05.14)
+
+- 适配了 Android Studio | 2024.3.2
 
 
 
