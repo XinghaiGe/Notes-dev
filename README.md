@@ -9,7 +9,7 @@
 
 ## 环境要求
 - **开发工具**: Android Studio | 2024.3.2
-- **构建工具**: gradle-9.0-milestone-7
+- **构建工具**: gradle-9.0.0-milestone-8
 
 
 
