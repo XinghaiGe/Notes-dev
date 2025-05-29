@@ -8,7 +8,7 @@ buildscript {
         maven { url 'https://gitee.com/MasterHan666/richeditor-android/raw/master' } // 国内镜像（备用）
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.10.0'
+        classpath 'com.android.tools.build:gradle:8.10.1'
     }
 }
 

@@ -1,4 +1,4 @@
-# 小米便签 - Android Studio 2024 适配版
+# 小米便签 - Android Studio 最新适配版
 
 
 
@@ -8,7 +8,7 @@
 
 
 ## 环境要求
-- **开发工具**: Android Studio | 2024.3.2
+- **开发工具**: Android Studio | 2024.3.2 Patch 1
 - **构建工具**: gradle-9.0.0-milestone-8
 
 
